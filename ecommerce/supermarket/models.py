@@ -16,3 +16,4 @@ class Order(models.Model):
 
     def __str__(self):
      return f"Order by {self.customer.name} on {self.order_date} - ${self.total_amount}"
+
